@@ -55,5 +55,3 @@ public/
 # Optional: Docker
 *.local
 docker-compose.override.yml
-
-/src/generated/prisma
