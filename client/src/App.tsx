@@ -1,9 +1,9 @@
 import './App.css'
-import { Auth } from './Auth/Auth'
+import { Navbar } from './component/Navbar'
 
 function App() {
   return <div>
-    <Auth />
+    <Navbar />
   </div>
 }
 

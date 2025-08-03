@@ -1,8 +1,10 @@
+import { Logo } from "../Icons/logo"
+
 export const Auth = () => {
-    return <div className="bg-white flex flex-col justify-center items-center p-4 gap-4 bg-gradient-to-br from-white-300 via-purple-50 to-orange-100">
+    return <div className="min-h-screen flex flex-col justify-center items-center p-4 gap-4 bg-gradient-to-br from-white-300 via-purple-50 to-orange-100">
         <div className="flex flex-col items-center gap-10">
-            <span className="font-bold text-2xl">SKiLL SHare</span>
-            <span className="font-semibold mt-3">Create your Skill Share account</span>
+            <span className="font-bold text-2xl mt-4">SKiLL SHare</span>
+            <span className="font-semibold mt-1">Create your Skill Share account</span>
         </div>
         <div className="flex flex-col">
             <span className="font-semibold">Email</span>
@@ -11,7 +13,7 @@ export const Auth = () => {
         </div>
         <button className="bg-black text-white px-45 py-2 rounded mt-5">Sign Up</button>
         <div className="flex items-center gap-4 w-106">
-            <hr className="flex-grow border-gray-300" />g
+            <hr className="flex-grow border-gray-300" />
             <span className="text-gray-400 font-semibold">OR</span>
             <hr className="flex-grow border-gray-300" />
         </div>
