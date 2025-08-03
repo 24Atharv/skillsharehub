@@ -1,7 +1,7 @@
 import { Logo } from "../Icons/logo"
 
 export const Navbar = () => {
-    return <div className="min-h-screen p-4 bg-gradient-to-br from-white-300 via-purple-50 to-orange-100">
+    return <div className="p-4">
         <div className="flex gap-20 justify-between">
             <Logo />
             <div className="flex justify-between gap-6">
