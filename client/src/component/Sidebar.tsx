@@ -1,6 +1,8 @@
 import { CourseIcon } from "../Icons/CourseIcon"
 import { HomeIcon } from "../Icons/HomeIcon"
+import { LogoutIcon } from "../Icons/LogoutIcon"
 import { PurchaseIcon } from "../Icons/Purchases"
+import { SettingIcon } from "../Icons/SettingIcon"
 
 export const Sidebar = () => {
     return <div className="w-62 min-h-screen border border-gray-400 border-none bg-[#E8F1FD]">
@@ -15,6 +17,8 @@ export const Sidebar = () => {
                 <HomeIcon />
                 <CourseIcon />
                 <PurchaseIcon />
+                <SettingIcon />
+                <LogoutIcon />
         </div>
     </div>
 }
