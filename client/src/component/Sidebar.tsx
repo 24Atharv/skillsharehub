@@ -1,3 +1,4 @@
+import { CourseIcon } from "../Icons/CourseIcon"
 import { HomeIcon } from "../Icons/HomeIcon"
 
 export const Sidebar = () => {
@@ -11,6 +12,7 @@ export const Sidebar = () => {
             <hr className="flex-grow w-full bg-gray-500" />
             <div className="flex flex-col gap-8 p-6 ml-3">
                 <HomeIcon />
+                <CourseIcon />
         </div>
     </div>
 }
