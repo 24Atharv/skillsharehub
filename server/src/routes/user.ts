@@ -1,11 +1,11 @@
-import Express = require("express");
-const userRouter = Express.Router();
+import express = require("express");
+const userRouter = express.Router();
 import { PrismaClient } from '@prisma/client'
 const client = new PrismaClient();
 
 userRouter.post("/signup", async (req, res) => {
     const { name, password, email, username } = req.body;
-    const user = await client.user.create({
+    const newUser = await client.user.create({
         data: {
             name: name,
             password: password,
@@ -14,10 +14,11 @@ userRouter.post("/signup", async (req, res) => {
         }
     })
 
-    if(user) {
+    if(newUser) {
         res.json({
             message: "signin"
         })
+        console.log("Create the new User: " + newUser);
     }
     else {
         res.json({
@@ -26,3 +27,5 @@ userRouter.post("/signup", async (req, res) => {
     }
 })
 
+
+export default userRouter;
