@@ -1,8 +1,9 @@
 import './App.css'
+import { Auth } from './Auth/Auth'
 
 function App() {
   return <div>
-    
+    <Auth />
   </div>
 }
 
