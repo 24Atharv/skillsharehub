@@ -28,3 +28,5 @@ model Instructor {
   password String
   username String
 }
+
+
